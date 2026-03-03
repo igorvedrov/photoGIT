@@ -1,2 +1,0 @@
-# photoGIT test test
-
