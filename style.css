@@ -1,0 +1,81 @@
+/* Основні налаштування сторінки */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Заголовки */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Зображення */
+.profile-img {
+    width: 276px;
+    height: 414px;
+    margin-bottom: 20px;
+}
+
+.contact-avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 20%;
+    margin-bottom: 30px;
+}
+
+/* Контентна частина */
+.content-box {
+    width: 50%;
+    margin: 0 auto 5px auto;
+    text-align: left;
+}
+
+/* Кнопки та навігація */
+.button-group {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.btn {
+    display: inline-block;
+    width: 200px;
+    padding: 14px 0;
+    margin: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 30px;
+    background: transparent;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Сітка для портфоліо */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.portfolio-item {
+    width: 100%;
+    border-radius: 10px;
+}
